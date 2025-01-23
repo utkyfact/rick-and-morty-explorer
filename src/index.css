@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-full::before {
+    background-color: transparent !important;
+}
+
+.image-full:hover::before {
+    transition: .2s;
+    background-color: black !important;
+}
+
